@@ -10,3 +10,5 @@ x = y*z
 f = x.derivative()
 o = f/y
 print o.integral()
+
+#o.integral() is the logarithm of the formal group law we split off of our Jacobian 
