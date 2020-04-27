@@ -30,4 +30,4 @@ L3 = L.change_ring(S.quo(u3))
 print "Modding out by u3:"
 print L3(L2(L1(log)))
 
-#All that remains is z^{625} + O(626), thus our logarithm f is isomorphic to the universal formal group law! Huzzah!
+#All that remains is z + u1z^p/p + u2*z^{p^2}/p^2 + u_3z^{p^3}/p^3, thus our logarithm f is isomorphic to the universal formal group law! Huzzah!
