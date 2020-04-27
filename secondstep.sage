@@ -21,7 +21,7 @@ print "Modding out by u1:"
 print L1(log) #l modded out by u1 
 
 #mod out by u2
-L2L=L.change_ring(S.quo(u2))
+L2=L.change_ring(S.quo(u2))
 print "Modding out by u2:"
 print L2(L1(log))
 
